@@ -1,0 +1,7 @@
+include ':app'
+rootProject.name = "GlowingCake"
+
+include ':opencv'
+project(':opencv').projectDir = new File('sdk')
+
+
